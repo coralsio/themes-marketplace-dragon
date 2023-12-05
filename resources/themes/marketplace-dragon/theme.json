@@ -1,0 +1,20 @@
+{
+  "type": "frontend",
+  "name": "corals-marketplace-dragon",
+  "caption": "Corals Marketplace Dragon",
+  "extends": null,
+  "assetPath": "assets\/themes\/marketplace-dragon",
+  "version": "2.4.8",
+  "css": [
+    "css/vendor/simple-line-icons.css",
+    "css/vendor/tooltipster.css",
+    "css/style.css",
+    "font-awesome-4.7.0/css/font-awesome.min.css"
+  ],
+  "js": [
+    "js/vendor/jquery-3.1.0.min.js",
+    "js/vendor/jquery.range.min.js",
+    "js/bootstrap.min.js"
+  ],
+  "platform": "Marketplace"
+}
