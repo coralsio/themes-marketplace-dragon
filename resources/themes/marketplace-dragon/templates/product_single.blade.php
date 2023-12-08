@@ -46,7 +46,7 @@
         <div class="section">
             <div class="sidebar right">
                 <div class="sidebar-item">
-                    {!! CoralsForm::openForm(null,['url'=>'cart/'.$product->hashed_id.'/add-to-cart','method'=>'POST','class'=> 'ajax-form','id'=>'sku-form','data-page_action'=>"updateCart"]) !!}
+                    {!! CoralsForm::openForm(null,['url'=>url('cart/'.$product->hashed_id.'/add-to-cart'),'method'=>'POST','class'=> 'ajax-form','id'=>'sku-form','data-page_action'=>"updateCart"]) !!}
                     <p class="price large" id="sku-price">{!! $product->price !!}</p>
                     @php
                         $rating = $product->averageRating(1)[0] ;
